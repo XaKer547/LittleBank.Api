@@ -28,10 +28,7 @@ namespace LittleBank.Api.Controllers
                 Card = u.Cards.FirstOrDefault(c => c.Id == cardId)
             }).FirstOrDefaultAsync(u => u.Id == id);
 
-            if (!user.Card.IsActive)
-                return BadRequest("Данная карта не является активной");
-
-            return Ok(user);
+            return !user.Card.IsActive ? BadRequest("Данная карта не является активной") : Ok(user);
         }
 
         [HttpGet]

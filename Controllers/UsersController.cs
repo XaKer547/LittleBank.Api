@@ -4,7 +4,6 @@ using LittleBank.Api.Models;
 using LittleBank.Api.Models.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Extensions;
 
 namespace LittleBank.Api.Controllers
 {
