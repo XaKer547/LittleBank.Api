@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "R5XIErxPTduHDIgjnR/bblWYXzQMDYR0qyHho8VxeBA=",
+  "Source": "LittleBank.Api",
+  "BasePath": "_content/LittleBank.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
